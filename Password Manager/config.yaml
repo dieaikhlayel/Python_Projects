@@ -1,0 +1,31 @@
+database:
+  path: "data/passwords.db"
+  backup_path: "backups/"
+  auto_backup: true
+  backup_interval_hours: 24
+
+security:
+  key_derivation_iterations: 100000
+  min_password_length: 8
+  require_special_chars: true
+  auto_lock_minutes: 15
+  clear_clipboard_seconds: 30
+
+cloud:
+  enable_sync: false
+  sync_service: "google_drive"
+  sync_interval: 3600
+  auto_backup_to_cloud: false
+
+gui:
+  theme: "dark"
+  font_family: "Arial"
+  font_size: 10
+  window_width: 800
+  window_height: 600
+
+logging:
+  level: "INFO"
+  file: "logs/password_manager.log"
+  max_file_size_mb: 10
+  backup_count: 5
