@@ -1,0 +1,46 @@
+{
+  "classic": {
+    "background_color": [240, 217, 181],
+    "snake_color": [34, 139, 34],
+    "ladder_color": [160, 82, 45],
+    "player_colors": [
+      [220, 20, 60],
+      [30, 144, 255],
+      [50, 205, 50],
+      [255, 215, 0]
+    ]
+  },
+  "forest": {
+    "background_color": [34, 139, 34],
+    "snake_color": [139, 0, 0],
+    "ladder_color": [101, 67, 33],
+    "player_colors": [
+      [255, 69, 0],
+      [0, 191, 255],
+      [255, 255, 0],
+      [148, 0, 211]
+    ]
+  },
+  "ocean": {
+    "background_color": [0, 105, 148],
+    "snake_color": [0, 0, 128],
+    "ladder_color": [192, 192, 192],
+    "player_colors": [
+      [255, 0, 0],
+      [0, 255, 0],
+      [255, 255, 0],
+      [255, 0, 255]
+    ]
+  },
+  "space": {
+    "background_color": [0, 0, 0],
+    "snake_color": [75, 0, 130],
+    "ladder_color": [169, 169, 169],
+    "player_colors": [
+      [255, 0, 0],
+      [0, 255, 255],
+      [255, 215, 0],
+      [138, 43, 226]
+    ]
+  }
+}
